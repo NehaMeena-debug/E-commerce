@@ -19,7 +19,7 @@ A modern and responsive frontend e-commerce website for makeup and beauty produc
 - **React** (Vite setup)
 - **Tailwind CSS**
 - **JavaScript**
-- **HTML/CSS**
+- **HTML**
 
 
 📞 Contact Me
