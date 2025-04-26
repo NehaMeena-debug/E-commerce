@@ -1,8 +1,27 @@
-# React + Vite
+# 💄 Makeup Beauty Store - E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive frontend e-commerce website for makeup and beauty products. Built using **React** and styled with **Tailwind CSS**, this project showcases a clean user interface with product listings, categories, and a shopping cart layout.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+
+- 🛍️ Product listing with images, price, and name
+- 🔍 Search and filter functionality (optional/coming soon)
+- 🛒 Shopping cart UI (Add/Remove items)
+- 📱 Fully responsive design
+- 🎨 Stylish and modern layout using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Vite setup)
+- **Tailwind CSS**
+- **JavaScript**
+- **HTML/CSS**
+
+
+
+
+
