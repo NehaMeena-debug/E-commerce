@@ -22,6 +22,13 @@ A modern and responsive frontend e-commerce website for makeup and beauty produc
 - **HTML/CSS**
 
 
+📞 Contact Me
 
+Feel free to reach out to me via:
 
+Email : neham.bba2023@ssism.org
+
+LinkedIn : www.linkedin.com/in/contact-neha-meena
+
+GitHub : https://github.com/NehaMeena-debug
 
