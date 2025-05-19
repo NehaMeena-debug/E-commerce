@@ -8,7 +8,7 @@ const Liked = () => {
 
   return (
     <div className="p-4">
-          <h1 className="font-monoton text-center m-12 text-3xl">Liked Product</h1>
+      <h1 className="font-monoton text-center m-12 text-3xl">Liked Product</h1>
       {likedProducts.length === 0 ? (
         <p className="text-center text-gray-500"></p>
       ) : (

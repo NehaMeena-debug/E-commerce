@@ -29,7 +29,7 @@ const ProductCard = ({ id, img, name, like, price, atc, buy, isCartPage }) => {
       <div className="flex justify-between items-center w-full px-2">
         <p className="text-gray-700 font-semibold text-md">₹ {price}</p>
         {!isCartPage && (
-          <button 
+          <button
             onClick={() => addToCart({ id, img, name, price })}
             className="flex items-center gap-1 text-gray-600 hover:text-blue-700 transition"
           >
@@ -47,7 +47,7 @@ const ProductCard = ({ id, img, name, like, price, atc, buy, isCartPage }) => {
           onClick={handleRemove}
           className="bg-red-500 text-white rounded-lg px-6 py-2 hover:bg-red-400 transition"
         >
-          Remove 
+          Remove
         </button>
       )}
     </div>

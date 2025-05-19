@@ -21,27 +21,14 @@ const Contact = () => {
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-12">
-          {/* Contact Information */}
+
           <div className="space-y-8">
-            {/* <div className="flex items-start space-x-4">
-              <span className="text-3xl text-rose-400">📍</span>
-              <p className="text-gray-700">123 Glow Cosmetic Street, Mumbai, India</p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <span className="text-3xl text-rose-400">📞</span>
-              <p className="text-gray-700">+91 98765 43210</p>
-            </div>
-            <div className="flex items-start space-x-4">
-              <span className="text-3xl text-rose-400">✉️</span>
-              <p className="text-gray-700">support@GlowCosmetic.com</p>
-            </div> */}
             <img src="contact.jpg" className="rounded"></img>
           </div>
 
 
 
-          {/* Contact Form */}
-          {/* <div className="gap-12"> */}
+
           <form onSubmit={handleSubmit} className="space-y-12 p-8 mt-8">
             <input
               type="text"

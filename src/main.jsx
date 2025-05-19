@@ -10,12 +10,12 @@ import './index.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- 
+
    <StrictMode>
-   <BrowserRouter>
-  <LikedProvider>
-      <App />
-    </LikedProvider>
-   </BrowserRouter> 
+      <BrowserRouter>
+         <LikedProvider>
+            <App />
+         </LikedProvider>
+      </BrowserRouter>
    </StrictMode>
 )

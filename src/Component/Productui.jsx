@@ -1,15 +1,15 @@
 import Productcard from "./Productcard"
 import { useState } from 'react';
 
-const Productui = ({ likedProducts, setLikedProducts }) =>{
- 
+const Productui = ({ likedProducts, setLikedProducts }) => {
+
     return (
-            <> 
-           
+        <>
+
             <h1 className="font-monoton text-center m-12 text-3xl">Product's</h1>
             <div className="grid grid-cols-3 gap-6 mt-8 mb-12">
-<Productcard
-                    id = {1}
+                <Productcard
+                    id={1}
                     img="/products_view/powder_foundation.webp"
                     name="Lakme Powder Foundation"
                     like=""
@@ -17,13 +17,13 @@ const Productui = ({ likedProducts, setLikedProducts }) =>{
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
-            
 
 
-             <Productcard
-              id = {2}
+
+                <Productcard
+                    id={2}
                     img="/products_view/colorbar.webp"
                     name="Color Bar"
                     like=""
@@ -31,11 +31,11 @@ const Productui = ({ likedProducts, setLikedProducts }) =>{
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-               <Productcard
-               id = {3}
+                <Productcard
+                    id={3}
                     img="/products_view/eye liner golden.webp"
                     name="Eye Liner Golden"
                     like=""
@@ -43,9 +43,9 @@ const Productui = ({ likedProducts, setLikedProducts }) =>{
                     atc=""
                     buy="Shop"
                 />
-                
+
                 <Productcard
-                id = {4}
+                    id={4}
                     img="/products_view/facescanada.webp"
                     name="FaceCanada"
                     like=""
@@ -53,11 +53,11 @@ const Productui = ({ likedProducts, setLikedProducts }) =>{
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-             <Productcard
-             id = {5}
+                <Productcard
+                    id={5}
                     img="/products_view/gloss nail.webp"
                     name="Gloss Nail"
                     like=""
@@ -65,11 +65,11 @@ const Productui = ({ likedProducts, setLikedProducts }) =>{
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {6}
+                <Productcard
+                    id={6}
                     img="/products_view/Intense matte lips.webp"
                     name="Matte Lips"
                     like=""
@@ -77,12 +77,12 @@ id = {6}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
 
-<Productcard
-id = {7}
+                <Productcard
+                    id={7}
                     img="/products_view/lip_cheek_tint.webp"
                     name="Lip Cheek Tint"
                     like=""
@@ -90,11 +90,11 @@ id = {7}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {8}
+                <Productcard
+                    id={8}
                     img="/products_view/makeup revolution.webp"
                     name="Makeup Revolution"
                     like=""
@@ -102,11 +102,11 @@ id = {8}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {9}
+                <Productcard
+                    id={9}
                     img="/products_view/matte lipstick.webp"
                     name="Matte Lipstic"
                     like=""
@@ -114,12 +114,12 @@ id = {9}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
 
-<Productcard
-id = {10}
+                <Productcard
+                    id={10}
                     img="/products_view/moisturizer.webp"
                     name="Moisturizer"
                     like=""
@@ -127,11 +127,11 @@ id = {10}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {11}
+                <Productcard
+                    id={11}
                     img="/products_view/compact_powder.webp"
                     name="Compact Powder"
                     like=""
@@ -139,12 +139,12 @@ id = {11}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
 
-<Productcard
-id = {12}
+                <Productcard
+                    id={12}
                     img="/products_view/makeup_oil_primer.webp"
                     name="Oil Primer"
                     like=""
@@ -152,12 +152,12 @@ id = {12}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
 
-<Productcard
-id = {13}
+                <Productcard
+                    id={13}
                     img="/products_view/eye_palette.webp"
                     name="Eya Palette"
                     like=""
@@ -165,11 +165,11 @@ id = {13}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {14}
+                <Productcard
+                    id={14}
                     img="/products_view/eye_liner.webp"
                     name="Eya Liner"
                     like=""
@@ -177,11 +177,11 @@ id = {14}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {15}
+                <Productcard
+                    id={15}
                     img="/products_view/tinted_powder.webp"
                     name="Tinted Powder"
                     like=""
@@ -189,11 +189,11 @@ id = {15}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {16}
+                <Productcard
+                    id={16}
                     img="/products_view/concealer.webp"
                     name="Concealer"
                     like=""
@@ -201,12 +201,12 @@ id = {16}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
 
-<Productcard
-id = {17}
+                <Productcard
+                    id={17}
                     img="/products_view/pencile_liner.webp"
                     name="Pencile Liner"
                     like=""
@@ -214,11 +214,11 @@ id = {17}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
-<Productcard
-id = {18}
+                <Productcard
+                    id={18}
                     img="/products_view/mono blush.webp"
                     name="Mono Blush"
                     like=""
@@ -226,16 +226,16 @@ id = {18}
                     atc=""
                     buy="Shop"
                     likedProducts={likedProducts}
-  setLikedProducts={setLikedProducts}
+                    setLikedProducts={setLikedProducts}
                 />
 
 
 
-                </div>
+            </div>
 
-                
-           
-         
+
+
+
         </>
     )
 }
