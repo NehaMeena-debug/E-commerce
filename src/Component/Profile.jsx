@@ -20,10 +20,19 @@ const Profile = () => {
 
 
           <div>
-            <label className="block text-sm text-dark-grey mb-1">Email or Phone Number</label>
+            <label className="block text-sm text-dark-grey mb-1">Email</label>
             <input
               type="text"
               placeholder="Enter your email or phone"
+              className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-rose-gold"
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm text-dark-grey mb-1">Password</label>
+            <input
+              type="Password"
+              placeholder="Password"
               className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-rose-gold"
             />
           </div>
