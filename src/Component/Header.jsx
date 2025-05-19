@@ -34,9 +34,7 @@ const Header = () => {
       </div>
       </div>
     </nav>
-    {/* <div className="font-pacifico p-4 flex justify-center items-center "> 
-        <button className="mt-40  bg-pink-500 hover:bg-pink-600 px-8 py-2 text-lg rounded-full">Shop Now</button>
-        </div> */}
+    
     </div>
     
     </div>
