@@ -1,5 +1,7 @@
 
 import React, { createContext, useState } from "react";
+import { ToastContainer } from "react-toastify";
+import { showToast } from "../Utils/toastUtils";
 
 export const LikedContext = createContext();
 
@@ -21,10 +23,12 @@ export const LikedProvider = ({ children }) => {
     if (!isAlreadyInCart) {
       setCart(prev => [...prev, product]);
     }
+     showToast("Item 🛒 added to cart!", "addToCart");
   };
 
   const removeFromCart = (productId) => {
     setCart(prev => prev.filter(p => p.id !== productId));
+    showToast("Item removed to cart! 🛒", "removedFromCart");
   };
 
   return (

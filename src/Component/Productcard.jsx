@@ -1,4 +1,6 @@
 import React, { useContext } from 'react';
+import { ToastContainer } from "react-toastify";
+import { showToast } from "../Utils/toastUtils";
 import { LikedContext } from './LikedContext';
 
 const ProductCard = ({ id, img, name, like, price, atc, buy, isCartPage }) => {
@@ -8,10 +10,12 @@ const ProductCard = ({ id, img, name, like, price, atc, buy, isCartPage }) => {
 
   const handleLikeClick = () => {
     toggleLike({ id, img, name, like, price, atc, buy });
+    showToast(" Added to favorites! ❤️", "likedProduct")
   };
 
   const handleRemove = () => {
     removeFromCart(id);
+    
   };
 
   return (
@@ -30,7 +34,11 @@ const ProductCard = ({ id, img, name, like, price, atc, buy, isCartPage }) => {
         <p className="text-gray-700 font-semibold text-md">₹ {price}</p>
         {!isCartPage && (
           <button
-            onClick={() => addToCart({ id, img, name, price })}
+            
+             onClick={() => {
+        addToCart({ id, img, name, price });
+      
+      }}
             className="flex items-center gap-1 text-gray-600 hover:text-blue-700 transition"
           >
             <i className="ri-shopping-cart-2-fill text-xl"></i> {atc}

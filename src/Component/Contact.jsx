@@ -1,5 +1,6 @@
 import { useState } from "react";
-
+import { ToastContainer } from "react-toastify";
+import { showToast } from "../Utils/toastUtils";
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
 
@@ -9,7 +10,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert("Message sent successfully!");
+    // alert("Message sent successfully!");
   };
 
   return (
@@ -58,7 +59,9 @@ const Contact = () => {
               required
             ></textarea>
             <button
+
               type="submit"
+               onClick={() => showToast("Message 📩 sent!", "sentMessage")}
               className="w-full bg-rose-gold hover:bg-pink-200  hover:text-black text-white py-3 rounded-xl font-semibold transition"
             >
               Send Message

@@ -4,7 +4,7 @@ import Review from "./Review"
 const Home = () => {
   return (
     <>
-      <div className="bg-gray-100  relative overflow-hidden w-full">
+      {/* <div className="bg-gray-100  relative overflow-hidden w-full">
         <div className=" overflow-x-auto whitespace-nowrap scrollbar-hide flex flex-wrap  animate-scroll overflow-hidden   justify-center shadow-lg text-center rounded-xl  bg-gray-400 gap-4 p-2  space-x-4">
           <Category
             img="./catagory/BBcream.jpeg"
@@ -77,11 +77,36 @@ const Home = () => {
 
 
         </div>
-      </div>
+      </div> */}
+      <div className="bg-gray-100 w-full">
+  <div className="flex gap-4 p-2 bg-gray-400 rounded-xl shadow-lg text-center
+                  overflow-x-auto whitespace-nowrap scrollbar-hide animate-scroll
+                  sm:flex-wrap sm:justify-center sm:overflow-visible sm:whitespace-normal">
+
+    <Category img="./catagory/BBcream.jpeg" name="BB creame" />
+    <Category img="./catagory/blush.jpeg" name="Blush" />
+    <Category img="./catagory/eyeshadow.jpeg" name="Eyeshadow" />
+    <Category img="./catagory/maybeline.jpeg" name="Maybeline" />
+    <Category img="./catagory/lip_plumber.jpeg" name="Lip plumber" />
+    <Category img="./catagory/fluid_f.jpeg" name="Foundation" />
+    <Category img="./catagory/valvet.jpeg" name="Valvet shadow" />
+    <Category img="./catagory/lip_oil.jpeg" name="Lip oil" />
+    <Category img="./catagory/BBcream.jpeg" name="BB creame" />
+    <Category img="./catagory/blush.jpeg" name="Blush" />
+    <Category img="./catagory/eyeshadow.jpeg" name="Eyeshadow" />
+    <Category img="./catagory/maybeline.jpeg" name="Maybeline" />
+    <Category img="./catagory/lip_plumber.jpeg" name="Lip plumber" />
+    <Category img="./catagory/fluid_f.jpeg" name="Foundation" />
+    <Category img="./catagory/valvet.jpeg" name="Valvet shadow" />
+    <Category img="./catagory/lip_oil.jpeg" name="Lip oil" />
+  </div>
+</div>
+
 
 
       <h1 className="font-monoton text-center m-12 text-3xl">Featured Product </h1>
-      <div className="grid grid-cols-3 gap-6 mt-8 mb-12">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 mb-12 px-4 max-w-6xl mx-auto">
+
 
         <Product
           img="/product/product_1.jpg"

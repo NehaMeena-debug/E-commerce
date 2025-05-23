@@ -1,4 +1,6 @@
 import { Routes, Route } from "react-router-dom";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Header from "./Component/Header"
 import Home from "./Component/Home"
 import Productui from "./Component/Productui"
@@ -28,7 +30,7 @@ const App = () => {
         <Footer />
 
       </div>
-
+    <ToastContainer />
     </>
 
 
