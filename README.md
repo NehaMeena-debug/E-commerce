@@ -7,7 +7,6 @@ A modern and responsive frontend e-commerce website for makeup and beauty produc
 ## 🚀 Features
 
 - 🛍️ Product listing with images, price, and name
-- 🔍 Search and filter functionality (optional/coming soon)
 - 🛒 Shopping cart UI (Add/Remove items)
 - 📱 Fully responsive design
 - 🎨 Stylish and modern layout using Tailwind CSS
